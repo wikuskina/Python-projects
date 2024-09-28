@@ -27,17 +27,17 @@ while start == "Y":
 
     # Create different choices for the game player. Every choice determines whether he continues the game or loses.
     print("You are at the crossroad. Where do you want to go? Type 'left' or 'right'.")
-    crossroad = input()
+    crossroad = input().lower()
     # correct choice is left. Going right kills the player.
     if crossroad == "left":
         print("You have come to a lake. There is an island in the middle of the lake.")
         print("Type 'wait' to wait for the boat. Type 'swim' to swim acros.")
-        lake = input()
+        lake = input().lower()
         # waiting for the boat is correct choice. Swimming across kills the player.
         if lake == 'wait':
             print("You arrive to the island unharmed. There is a house with three doors. Red, yellow and blue.")
             print("Which colour do you choose?")
-            door = input()
+            door = input().lower()
             # yellow is correct choice. Other doors lead the end of the game.
             if door == "yellow":
                 print("You found the treasure! You WIN!")
@@ -54,5 +54,5 @@ while start == "Y":
 
 
     print("Start over? Y / N")
-    start = input()
+    start = input().upper()
 
