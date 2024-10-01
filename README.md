@@ -6,3 +6,4 @@ Day 2 - tip calculator <br>
 Day 3 - treasure find game, pizza calculator etc <br>
 Day 4 - rock paper scissors game <br>
 Day 5 - secure password generator
+Day 6 - functions 
