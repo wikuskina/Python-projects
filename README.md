@@ -7,4 +7,4 @@ Day 3 - Treasure find game, pizza calculator etc <br>
 Day 4 - Rock paper scissors game <br>
 Day 5 - Secure password generator <br>
 Day 6 - Functions, while loop and Reeborg's robot maze challenge <br>
-Day 7 - <br>
+Day 7 - Hangman - a game to guess a word <br>

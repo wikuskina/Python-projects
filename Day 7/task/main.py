@@ -18,7 +18,8 @@ print(guessed_letter)
 #  is, "Wrong" if it's not.
 
 # Checking if guessed letter is in the picked word
-if guessed_letter in picked_word:
-    print("Right!")
-else:
-    print("Wrong!")
+for letter in picked_word:
+    if letter == guessed_letter:
+        print("Right!")
+    else:
+        print("Wrong!")
