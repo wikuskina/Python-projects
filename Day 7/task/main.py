@@ -17,13 +17,15 @@ print(picked_word_hidden)
 guessed_letter = input("Guess a letter:\n").lower()
 print(guessed_letter)
 
-
 # TODO-2: Create a "display" that puts the guess letter in the right positions and _ in the rest of the string.
 
+displayed_word = ""
 
 # Checking if guessed letter is in the picked word
 for letter in picked_word:
     if letter == guessed_letter:
-        print("Right!")
+        displayed_word +=guessed_letter
     else:
-        print("Wrong!")
+        displayed_word +="_"
+
+print(displayed_word)
