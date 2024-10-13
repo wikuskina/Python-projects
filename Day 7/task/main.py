@@ -1,4 +1,5 @@
 import random
+import hangman_words
 stages = ['''
   +---+
   |   |
@@ -56,10 +57,9 @@ stages = ['''
 =========
 ''']
 
-word_list = ["cat", "baboon", "camel", "book", "cinema", "table", "friend", "python"]
-
-# Picking a random word from the list
-picked_word = random.choice(word_list)
+# Picking a random word from the list of words
+# list is stored in another module called hangman.words
+picked_word = random.choice(hangman_words.word_list)
 # print(f"You picked: {picked_word}")
 
 picked_word_hidden = ""
