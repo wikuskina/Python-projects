@@ -1,4 +1,62 @@
 import random
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+import random
 word_list = ["aardvark", "baboon", "camel"]
 
 # Picking a random word from the list
@@ -22,10 +80,21 @@ game_over = False
 # FOR loop will be used to loop through this list and a letter that user is guessing at the time
 correct_letters = []
 
+# setting variable called lives to track lives (6) left
+lives = 6
+
 while not game_over:
     guessed_letter = input("Guess a letter:\n").lower()
     print(f"You guessed: {guessed_letter}")
 
+    # remove a life if guess is incorrect
+    if guessed_letter in picked_word:
+        print("Correct guess.")
+    else:
+        lives = lives - 1
+        print(f"Your ives left: {lives}")
+
+# a list of word displayed to user
     displayed_word = ""
     for letter in picked_word:
         if  letter == guessed_letter:
