@@ -108,6 +108,19 @@ while not game_over:
             displayed_word += "_"
 
     print(f"The letters you have guessed so far: {displayed_word}")
+    # to check how many lives left and print corresponding image
+    if lives == 5:
+        print(stages[5])
+    elif lives == 4:
+        print(stages[4])
+    elif lives == 3:
+        print(stages[3])
+    elif lives == 2:
+        print(stages[2])
+    elif lives == 1:
+        print(stages[1])
+    elif lives == 0:
+        print(stages[0])
     print("--------------------------------------------------------")
 
 
