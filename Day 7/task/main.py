@@ -56,12 +56,11 @@ stages = ['''
 =========
 ''']
 
-import random
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["cat", "baboon", "camel", "book", "cinema", "table", "friend", "python"]
 
 # Picking a random word from the list
 picked_word = random.choice(word_list)
-print(f"You picked: {picked_word}")
+# print(f"You picked: {picked_word}")
 
 picked_word_hidden = ""
 number_of_letters = len(picked_word) #length of the picked word
@@ -89,10 +88,10 @@ while not game_over:
 
     # remove a life if guess is incorrect
     if guessed_letter in picked_word:
-        print("Correct guess.")
+        print(f"Correct guess! LIVES LEFT: {lives}")
     else:
         lives = lives - 1
-        print(f"Your ives left: {lives}")
+        print(f"Wrong guess. LIVES LEFT: {lives}")
 
 # a list of word displayed to user
     displayed_word = ""
@@ -108,12 +107,16 @@ while not game_over:
         else:
             displayed_word += "_"
 
-    print(displayed_word)
+    print(f"The letters you have guessed so far: {displayed_word}")
+    print("--------------------------------------------------------")
 
 
     if "_" not in displayed_word:
         game_over = True
-        print("You win.")
+        print("You win!")
+    elif lives == 0:
+        gave_over = False
+        print("You lost all your lives. Game over.")
     else:
        game_over = False
-       print("You didn't win.")
+
