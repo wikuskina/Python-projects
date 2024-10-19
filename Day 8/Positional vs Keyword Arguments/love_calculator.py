@@ -18,20 +18,22 @@ def calculate_love_score(name1, name2):
     for i in name_to_test:
         if i in test1:
             number1 += 1
-    print(number1)
+    #print(number1)
 
     for j in name_to_test:
         if j in test2:
             number2 += 1
-    print(number2)
+    #print(number2)
 
 
     score = str(number1)+str(number2)
-    print(score)
+    #print(score)
     final_score = int(score)
+    
+    print(f"This is your couple score: {final_score}")
 
     return final_score
 
 
 
-calculate_love_score("Angela Yu", "Jack Bauer")
+calculate_love_score("Catniss Everdeen", "Peeta Mellark")
