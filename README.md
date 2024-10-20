@@ -8,4 +8,5 @@ Day 4 - Rock paper scissors game <br>
 Day 5 - Secure password generator <br>
 Day 6 - Functions, while loop and Reeborg's robot maze challenge <br>
 Day 7 - Hangman - a game to guess a word <br>
-Day 8 - Love calculator game
+Day 8 - Love calculator game & Caesar Cipher <br>
+Day 9 - 
