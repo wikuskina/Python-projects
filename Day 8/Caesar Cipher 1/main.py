@@ -11,18 +11,13 @@ def encrypt(original_text,shift_amount):
         letter_location = alphabet.index(letter)
         # moving location of letters by shift amount
         new_letter_location = letter_location + shift_amount
-        if new_letter_location < 26:
-            # getting the new letter
-            temp_letter = alphabet[new_letter_location]
-            # appending to new text list
-            new_text_list.append(temp_letter)
-        else:
-            # preventing program from running into error if list index is out of range (e.g. z is shifted by 9)
-            new_letter_location = new_letter_location - 26
-            # getting the new letter
-            temp_letter = alphabet[new_letter_location]
-            # appending to new text list
-            new_text_list.append(temp_letter)
+        # using modulo to prevent number of new letter location going beyond list length
+        new_letter_location = new_letter_location % len(alphabet)
+        # getting the new letter
+        temp_letter = alphabet[new_letter_location]
+        # appending to new text list
+        new_text_list.append(temp_letter)
+
 
 # call function
 encrypt(text,shift)
