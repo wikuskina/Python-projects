@@ -10,3 +10,4 @@ Day 6 - Functions, while loop and Reeborg's robot maze challenge <br>
 Day 7 - Hangman - a game to guess a word <br>
 Day 8 - Love calculator game & Caesar Cipher <br>
 Day 9 - Secret Auction program
+Day 10 - Calculator project
