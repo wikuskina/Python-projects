@@ -12,3 +12,12 @@ Day 8 - Love calculator game & Caesar Cipher <br>
 Day 9 - Secret Auction program <br>
 Day 10 - Calculator project <br>
 Day 11 -   <br> 
+Day 12 -   <br> 
+Day 13 -   <br> 
+Day 14 -   <br> 
+Day 15 -   <br> 
+Day 16 -   <br>
+Day 17 -   <br> 
+Day 18 -   <br> 
+Day 19 -   <br> 
+Day 20 -   <br> 
