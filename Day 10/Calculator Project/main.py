@@ -60,7 +60,7 @@ def calculator_main():
             first_number = calculation_result
         else:
             continue_calculate = "N"
-            print("\n*25")
+            print("\n"*25)
             calculator_main()
 
 
