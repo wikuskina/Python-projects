@@ -11,7 +11,10 @@ Day 7 - Hangman - a game to guess a word <br>
 Day 8 - Love calculator game & Caesar Cipher <br>
 Day 9 - Secret Auction program <br>
 Day 10 - Leap year & Calculator project <br>
-Day 11 - Blackjack capstone project  <br> 
+Day 11 - Blackjack capstone project  <br>
+<br>
+![alt text](https://github.com/wikuskina/Python-projects/blob/master/blackjack.JPG) <br>
+<br>
 Day 12 -   <br> 
 Day 13 -   <br> 
 Day 14 -   <br> 
