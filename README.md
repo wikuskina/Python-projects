@@ -12,7 +12,7 @@ Day 8 - Love calculator game & Caesar Cipher <br>
 Day 9 - Secret Auction program <br>
 Day 10 - Leap year & Calculator project <br>
 Day 11 - Blackjack capstone project  <br>
-Day 12 -   <br> 
+Day 12 - Number guessing game  <br> 
 Day 13 -   <br> 
 Day 14 -   <br> 
 Day 15 -   <br> 
